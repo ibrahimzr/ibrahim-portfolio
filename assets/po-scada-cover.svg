@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">PO-SCADA Pipeline Operations SCADA System</title>
+<desc id="desc">Industrial SCADA portfolio cover showing pipeline tanks, control network and monitoring.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#071016"/>
+    <stop offset="0.52" stop-color="#0b1720"/>
+    <stop offset="1" stop-color="#071013"/>
+  </linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#20c7a5"/>
+    <stop offset="1" stop-color="#60e2c7"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#25d0ad" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#25d0ad" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".5"/>
+  </filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1280" cy="100" r="520" fill="url(#glow)"/>
+<circle cx="250" cy="760" r="420" fill="url(#glow)" opacity=".55"/>
+<g opacity=".13" stroke="#6de0ca" stroke-width="1">
+  <path d="M0 150H1600M0 300H1600M0 450H1600M0 600H1600M0 750H1600"/>
+  <path d="M200 0V900M400 0V900M600 0V900M800 0V900M1000 0V900M1200 0V900M1400 0V900"/>
+</g>
+
+<g transform="translate(105 82)">
+  <rect width="230" height="42" rx="21" fill="#25d0ad" fill-opacity=".1" stroke="#25d0ad" stroke-opacity=".35"/>
+  <text x="115" y="27" text-anchor="middle" fill="#52dec2" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" letter-spacing="2">INDUSTRIAL SCADA</text>
+</g>
+<text x="105" y="205" fill="#f2f7f5" font-family="Arial,Helvetica,sans-serif" font-size="88" font-weight="800" letter-spacing="-3">PO-SCADA</text>
+<text x="108" y="258" fill="#8ca0a6" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="500">Pipeline Operations SCADA System</text>
+<text x="108" y="304" fill="#56d9be" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" letter-spacing="2">FACTORY I/O  •  NODE-RED  •  IGNITION PERSPECTIVE  •  OPC UA</text>
+
+<g filter="url(#shadow)">
+  <rect x="100" y="380" width="1400" height="350" rx="34" fill="#0d1921" stroke="#283942" stroke-width="2"/>
+</g>
+
+<!-- tank A -->
+<g transform="translate(170 445)">
+  <rect x="0" y="40" width="210" height="180" rx="24" fill="#0b141b" stroke="#768b94" stroke-width="3"/>
+  <rect x="14" y="96" width="182" height="110" rx="14" fill="#24c7e9" fill-opacity=".5"/>
+  <line x1="14" y1="96" x2="196" y2="96" stroke="#70e9ff" stroke-width="3"/>
+  <text x="105" y="20" text-anchor="middle" fill="#e9f2f0" font-family="Arial" font-size="21" font-weight="700">SOURCE / TANK A</text>
+  <text x="105" y="151" text-anchor="middle" fill="#f4fbfa" font-family="Arial" font-size="24" font-weight="700">LT-101</text>
+  <text x="105" y="183" text-anchor="middle" fill="#a9bec5" font-family="Arial" font-size="18">LEVEL</text>
+</g>
+
+<!-- pipeline -->
+<path d="M380 575H610M990 575H1220" stroke="#697f8a" stroke-width="28" stroke-linecap="round"/>
+<path d="M405 575H600M1000 575H1195" stroke="#25d0ad" stroke-opacity=".28" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(435 515)">
+  <circle cx="0" cy="60" r="42" fill="#182933" stroke="#5f7884" stroke-width="2"/>
+  <path d="M-14 60L0 49L14 60L0 71Z" fill="#f1f6f4"/>
+  <text x="0" y="122" text-anchor="middle" fill="#93a7ad" font-family="Arial" font-size="15">XV-101</text>
+</g>
+<g transform="translate(1165 515)">
+  <circle cx="0" cy="60" r="42" fill="#182933" stroke="#5f7884" stroke-width="2"/>
+  <path d="M-14 60L0 49L14 60L0 71Z" fill="#f1f6f4"/>
+  <text x="0" y="122" text-anchor="middle" fill="#93a7ad" font-family="Arial" font-size="15">XV-102</text>
+</g>
+
+<!-- central SCADA panel -->
+<g transform="translate(590 405)">
+  <rect width="420" height="300" rx="24" fill="#101f28" stroke="#2f4b57" stroke-width="2"/>
+  <rect x="22" y="22" width="376" height="54" rx="12" fill="#192b35"/>
+  <circle cx="48" cy="49" r="8" fill="#25d0ad"/>
+  <text x="72" y="57" fill="#eef6f4" font-family="Arial" font-size="22" font-weight="700">IGNITION SCADA</text>
+  <rect x="24" y="96" width="180" height="82" rx="12" fill="#0c171d" stroke="#263c47"/>
+  <rect x="216" y="96" width="180" height="82" rx="12" fill="#0c171d" stroke="#263c47"/>
+  <rect x="24" y="190" width="372" height="84" rx="12" fill="#0c171d" stroke="#263c47"/>
+  <text x="42" y="122" fill="#788f99" font-family="Arial" font-size="14">FLOW IN</text>
+  <text x="42" y="158" fill="#f0f7f5" font-family="Arial" font-size="28" font-weight="700">0.0</text>
+  <text x="234" y="122" fill="#788f99" font-family="Arial" font-size="14">PRESSURE</text>
+  <text x="234" y="158" fill="#f0f7f5" font-family="Arial" font-size="28" font-weight="700">1.20</text>
+  <text x="42" y="218" fill="#788f99" font-family="Arial" font-size="14">PROTECTION STATUS</text>
+  <rect x="42" y="234" width="128" height="24" rx="12" fill="#25d0ad" fill-opacity=".16"/>
+  <text x="106" y="251" text-anchor="middle" fill="#4ddabd" font-family="Arial" font-size="13" font-weight="700">NORMAL</text>
+  <polyline points="190,251 220,230 250,245 280,220 310,237 340,208 372,225" fill="none" stroke="url(#teal)" stroke-width="4"/>
+</g>
+
+<!-- tank B -->
+<g transform="translate(1220 445)">
+  <rect x="0" y="40" width="210" height="180" rx="24" fill="#0b141b" stroke="#768b94" stroke-width="3"/>
+  <rect x="14" y="68" width="182" height="138" rx="14" fill="#24c7e9" fill-opacity=".5"/>
+  <line x1="14" y1="68" x2="196" y2="68" stroke="#70e9ff" stroke-width="3"/>
+  <text x="105" y="20" text-anchor="middle" fill="#e9f2f0" font-family="Arial" font-size="21" font-weight="700">RECEIVING / TANK B</text>
+  <text x="105" y="148" text-anchor="middle" fill="#f4fbfa" font-family="Arial" font-size="24" font-weight="700">LT-102</text>
+  <text x="105" y="180" text-anchor="middle" fill="#a9bec5" font-family="Arial" font-size="18">LEVEL</text>
+</g>
+
+<g transform="translate(105 790)">
+  <text x="0" y="0" fill="#788c94" font-family="Arial" font-size="18">Process protection • alarms • historian • diagnostics • RBAC • audit</text>
+  <text x="1390" y="0" text-anchor="end" fill="#25d0ad" font-family="Arial" font-size="18" font-weight="700">41 TESTS PASSED  •  24/24 FAT</text>
+</g>
+</svg>
